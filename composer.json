@@ -1,0 +1,16 @@
+{
+    "name": "janmas/upload",
+    "description": "上传组件",
+    "autoload": {
+        "psr-4": {
+            "Janmas\\Upload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "janmas",
+            "email": "janmas-cromwell@outlook.com"
+        }
+    ],
+    "require": {}
+}
