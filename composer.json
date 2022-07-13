@@ -3,7 +3,8 @@
     "description": "上传组件",
     "autoload": {
         "psr-4": {
-            "Janmas\\Upload\\": "src/"
+            "Janmas\\Upload\\": "src/",
+            "Test": "tests/"
         }
     },
     "authors": [
@@ -12,5 +13,7 @@
             "email": "janmas-cromwell@outlook.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
 }

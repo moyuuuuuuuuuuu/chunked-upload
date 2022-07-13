@@ -63,6 +63,9 @@ class Uploader
     public function chunk(int $index = 0, int $allNumber = 0)
     {
         $file = $this->file;
+        if (is_null($file)) {
+            throw new \Exception('请选择上传的文件');
+        }
         $fileOriginalName = $file->getOriginalName();
         $fileOriginalExtension = $file->extension();
 
